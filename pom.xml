@@ -108,6 +108,8 @@
                 <version>3.0.0-M4</version>
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
+		    <forkMode>once</forkMode>
+		    <argLine>-Xms512m -Xmx512m</argLine>
 <!--                    <useManifestOnlyJar>false</useManifestOnlyJar>-->
                 </configuration>
             </plugin>
